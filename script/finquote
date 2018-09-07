@@ -1,0 +1,39 @@
+#!perl
+
+# DATE
+# VERSION
+
+use 5.010001;
+use strict;
+use warnings;
+
+use Perinci::CmdLine::Any;
+
+my $prefix = '/App/finquote/';
+my $cli = Perinci::CmdLine::Any->new(
+    url => "${prefix}finquote",
+    log => 1,
+    log_level => 'info',
+);
+$cli->run;
+
+# ABSTRACT: Get stock and mutual fund quotes from various exchanges
+# PODNAME:
+
+=head1 SYNOPSIS
+
+List sources:
+
+ % finquote -l
+
+
+=head1 DESCRIPTION
+
+B<EARLY RELEASE.>
+
+This script is a CLI interface for L<Finance::Quote>.
+
+
+=head1 SEE ALSO
+
+L<Finance::Quote>
