@@ -20,13 +20,6 @@ $cli->run;
 # ABSTRACT: Get stock and mutual fund quotes from various exchanges
 # PODNAME:
 
-=head1 SYNOPSIS
-
-List sources:
-
- % finquote -l
-
-
 =head1 DESCRIPTION
 
 B<EARLY RELEASE, FOR TESTING.>
