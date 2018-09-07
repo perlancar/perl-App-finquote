@@ -29,7 +29,7 @@ List sources:
 
 =head1 DESCRIPTION
 
-B<EARLY RELEASE.>
+B<EARLY RELEASE, FOR TESTING.>
 
 This script is a CLI interface for L<Finance::Quote>.
 
