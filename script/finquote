@@ -30,3 +30,5 @@ This script is a CLI interface for L<Finance::Quote>.
 =head1 SEE ALSO
 
 L<Finance::Quote>
+
+L<App::finquotehist> and L<Finance::QuoteHist>
